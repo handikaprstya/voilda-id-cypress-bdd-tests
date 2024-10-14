@@ -1,0 +1,18 @@
+{
+  "validUser":{
+    "email": "9h.handika.prasetya@gmail.com",
+    "password": "H@ndika12"
+  },
+  "invalidPassword": {
+    "email": "9h.handika.prasetya@gmail.com",
+    "password": "bandung12"
+  },
+  "invalidEmail": {
+    "email": "handikaprstya@gmail.com",
+    "password": "H@ndika12"
+  },
+  "invalidUser": {
+    "email":"handikaprstya@gmail.com",
+    "password": "bandung12"
+  }
+}
