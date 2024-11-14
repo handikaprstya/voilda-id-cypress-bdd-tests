@@ -37,7 +37,7 @@ Cypress.Commands.add('logoutAccount', () => {
     cy.contains('Get the ultimate shopping experience on voilà.id app')
     .scrollIntoView();
     cy.get('._3syuln4 > a > #base').click();
-    cy.get('[data-test-id="Container_Logout"] > ._1ugu32j0 > ._1ugu32j1').click();
+    cy.get('[data-test-id="CT_LogOut"] > ._1ugu32j0 > ._1ugu32j1 > ._1ccbe2wb').click();
     cy.contains('Would you like to sign out from your voilà.id account?').should('be.visible');
     cy.get('[data-test-id="CT_SignOut_Confirm"]').click();
     cy.url().should('include', '/');

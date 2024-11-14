@@ -16,7 +16,7 @@ module.exports = defineConfig({
 
       return config;
     },
-    specPattern: 'cypress/e2e/**/*.feature', // Pastikan pola ini benar untuk fitur file
+    specPattern: ['cypress/e2e/**/*.feature'], // Pastikan pola ini benar untuk fitur file 
     baseUrl:'https://voila.id',
     // supportFile: 'cypress/support/e2e.js',
   },
